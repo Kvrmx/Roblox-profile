@@ -1,0 +1,20 @@
+.profile-carousel .scroll-arrow.next, .profile-carousel .scroll-arrow.prev {
+	 background-color: var(--color-surface-200);
+}
+ @media (pointer: fine) {
+	 .profile-carousel .scroll-arrow.next, .profile-carousel .scroll-arrow.prev {
+		 display: flex;
+	}
+}
+ @media (max-width: 991px), (min-width: 1010px) {
+	 .profile-carousel .scroll-arrow.next.next, .profile-carousel .scroll-arrow.prev.next {
+		 right: -20px;
+	}
+	 .profile-carousel .scroll-arrow.next.prev, .profile-carousel .scroll-arrow.prev.prev {
+		 left: -20px;
+	}
+}
+ .profile-carousel .scroll-arrow.next:hover, .profile-carousel .scroll-arrow.prev:hover {
+	 background-color: var(--color-surface-0);
+}
+ 
